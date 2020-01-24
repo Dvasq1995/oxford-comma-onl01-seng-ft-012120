@@ -10,7 +10,7 @@ def oxford_comma(array)
       newArr << array[counter]
       counter += 1
     end
-    newStr = newArr.join(',')
+    newStr = newArr.join(', ')
     newStr
   end
 end
