@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.size === 3
     newArr = []
     counter = 0 
-    while counter < 2
+    while counter < array.size - 1
       newArr << array[counter]
       counter += 1
     end
