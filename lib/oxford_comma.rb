@@ -3,4 +3,5 @@ def oxford_comma(array)
     array.join()
   elsif array.lenght() === 2 
     array.join(' and ')
+  end
 end
