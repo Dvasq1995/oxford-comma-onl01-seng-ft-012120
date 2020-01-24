@@ -11,7 +11,7 @@ def oxford_comma(array)
       counter += 1
     end
     newStr = newArr.join(', ')
-    newStr << ", and #{array[2]}"
+    newStr << ", and #{array.last}"
     newStr
   end
 end
