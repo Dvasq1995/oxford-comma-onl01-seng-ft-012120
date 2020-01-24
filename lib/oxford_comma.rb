@@ -12,5 +12,6 @@ def oxford_comma(array)
     end
     newStr = newArr.join(', ')
     newStr << ", and #{array[2]}"
+    newStr
   end
 end
