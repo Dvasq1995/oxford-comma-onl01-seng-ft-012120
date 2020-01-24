@@ -1,7 +1,7 @@
 def oxford_comma(array)
   if array.lenght === 1 
-    array.join()
+    return array.join()
   elsif array.lenght === 2 
-    array.join(' and ')
+    return array.join(' and ')
   end
 end
